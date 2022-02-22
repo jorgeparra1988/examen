@@ -1,0 +1,14 @@
+<form action="/links/edit/{{ coche.id }}" method="post">
+                        <div class="form-group">
+                            <input type="text" value="{{ coche.marca }}" class="form-control" name="title" placeholder="marca">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" value="{{ coche.potencia }}" name="url" class="form-control" placeholder="potencia">
+                        </div>
+                         <div class="form-group">
+                            <input type="url" value="{{ coche.url }}" name="url" class="form-control" placeholder="url">
+                        </div>
+                        <div class="from-group">
+                            <button class="btn btn-success bton-block">editado</button>
+                        </div>
+                    </form>
